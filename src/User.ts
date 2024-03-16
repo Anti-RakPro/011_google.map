@@ -1,3 +1,5 @@
+import faker from "faker"
+
 class User {
     name: string;
     location: {
@@ -9,5 +11,6 @@ class User {
 
     }
 }
-
+console.log(faker)
+console.log('after faker')
 
